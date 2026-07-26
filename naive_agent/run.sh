@@ -6,5 +6,5 @@
 # python -m naive_agent.xagent --prompt naive_agent/prompts/report.txt --model deepseek/deepseek-v4-pro
 # python -m naive_agent.xagent --prompt naive_agent/prompts/dashboard.txt
 # python -m naive_agent.xagent --prompt naive_agent/prompts/snake.txt
+# python -m naive_agent.xagent --prompt naive_agent/prompts/banner_unrestricted.txt --no-sandbox
 # python -m naive_agent.xagent --prompt naive_agent/prompts/banner.txt
-# python -m naive_agent.xagent --prompt naive_agent/prompts/banner.txt --skill --no-sandbox
