@@ -1,0 +1,1 @@
+写一个可以在浏览器直接打开的贪吃蛇游戏（HTML+JS 单文件），输出到 output/naive/snake.html

@@ -1,0 +1,6 @@
+用《研报数据/结构化数据》里的 CSV（市场大盘、公有云 IaaS/PaaS 厂商收入、政务云、厂商收入对比）做一份《toB/toG云服务市场分析》经营数据看板。控制在 4-6 张最有信息量的图，宁少而精。
+
+写 build_dashboard.py，生成单一文件 output/code/dashboard.html。要求：
+- 纯 HTML/CSS 条形图即可；可用少量原生 JS 做悬停/鼠标跟随 tooltip，不要 React/JSX，不要 Plotly/ECharts/CDN/base64 大图
+- 双击或在编辑器里打开都要立刻能看
+- 再写独立 verify.py 重算关键指标并校验，跑通才算完成

@@ -1,0 +1,24 @@
+# LLM 调用
+openai>=2.45.0
+litellm==1.91.4
+python-dotenv>=1.2.2
+
+# Agent 框架
+langgraph>=1.2.9
+
+# 数据分析与看板
+pandas>=3.0.3
+plotly>=6.9.0
+
+# 联网检索（Bocha，走 requests）+ MCP（deep_research_agent 的本地 tool server/client）
+requests>=2.34.2
+mcp>=1.0.0
+
+# GUI agent（CDP 虚拟时间控制浏览器，见 gui_agent/browser.py 顶部注释）
+playwright>=1.48.0
+
+# 命令行输出
+rich>=15.0.0
+
+# 测试
+pytest>=8.0.0

@@ -1,0 +1,1 @@
+用 研报数据/结构化数据/市场大盘/云计算市场规模.csv 和 公有云/IaaS厂商收入2025H1.csv 做一个简易数据大屏，输出到 output/naive/dashboard.html。图表库必须内嵌进 HTML（不能用 <script src="https://..."> 这种外部 CDN 链接），断网也要能直接打开。

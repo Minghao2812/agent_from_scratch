@@ -1,0 +1,21 @@
+---
+name: enterprise-analysis
+description: >-
+  从 workspace 研报素材提炼初步指标，产出可溯源的结构化 Markdown 分析。
+  触发场景：行业研报、企业分析、初步数据分析、研报数据、云计算市场、厂商份额。
+disable-model-invocation: true
+---
+
+# 企业/行业数据分析
+
+## 步骤
+
+1. `run_shell` 看目录结构；先读 `sources.md` 等索引，分清结构化 CSV 与原始长文本。
+2. CSV 用 pandas 在 `run_shell` 里算同比/份额/排名，禁止口算。
+3. 从原始文档摘数字时，结论旁标注「来源：文件名」。
+4. 素材已标缺口或信源冲突的，结论里如实写不确定性，不要硬凑确定数字。
+5. 产出 Markdown：市场大盘 / 厂商格局 / 细分市场；每个关键数字都能在原始素材里 grep 到。
+
+## 验证
+
+对若干关键数字 `run_shell` + grep，确认能在源文件中命中。
