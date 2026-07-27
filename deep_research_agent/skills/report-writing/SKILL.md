@@ -3,7 +3,6 @@ name: report-writing
 description: >-
   把多个子任务的研究笔记整合成一份带引用的完整专题报告。
   触发场景：写最终报告、整合 notes、专题报告成稿、引用编号、报告自查。
-disable-model-invocation: true
 ---
 
 # 整合笔记，写一份带引用的专题报告

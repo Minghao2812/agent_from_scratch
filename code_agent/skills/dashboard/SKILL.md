@@ -3,7 +3,6 @@ name: dashboard
 description: >-
   把 workspace 里的结构化 CSV 做成单一、能立刻打开的 HTML 数据看板（纯 HTML/CSS，无重型图表库）。
   触发场景：经营数据看板、可视化大屏、CSV 画图、指标可重算校验。
-disable-model-invocation: true
 ---
 
 # 做一份单一 HTML 数据看板（要能立刻打开）

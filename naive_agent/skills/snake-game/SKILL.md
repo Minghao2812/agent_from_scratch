@@ -3,7 +3,6 @@ name: snake-game
 description: >-
   写可在浏览器打开的单文件贪吃蛇（HTML/JS + canvas）。
   触发场景：贪吃蛇、snake、网页小游戏、canvas 游戏、给 GUI agent 当操作靶。
-disable-model-invocation: true
 ---
 
 # 贪吃蛇（单文件 HTML）

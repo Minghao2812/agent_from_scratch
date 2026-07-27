@@ -3,7 +3,6 @@ name: self-banner
 description: >-
   在 workspace 里做一份可运行的 xagent 启动 ASCII 横幅 demo。
   触发场景：启动 banner、ASCII art、给自己加封面、终端封面。
-disable-model-invocation: true
 ---
 
 # 给自己加封面

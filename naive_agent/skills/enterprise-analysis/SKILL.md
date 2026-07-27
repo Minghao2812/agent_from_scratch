@@ -3,7 +3,6 @@ name: enterprise-analysis
 description: >-
   从 workspace 研报素材提炼初步指标，产出可溯源的结构化 Markdown 分析。
   触发场景：行业研报、企业分析、初步数据分析、研报数据、云计算市场、厂商份额。
-disable-model-invocation: true
 ---
 
 # 企业/行业数据分析

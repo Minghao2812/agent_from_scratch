@@ -3,7 +3,6 @@ name: summarize
 description: >-
   将 workspace 内长文压缩成结构化摘要并落盘。
   触发场景：文章摘要、总结长文、提炼要点、写摘要文件。
-disable-model-invocation: true
 ---
 
 # 文章摘要

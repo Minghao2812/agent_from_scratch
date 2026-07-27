@@ -3,7 +3,6 @@ name: dashboard
 description: >-
   把 workspace 里的结构化 CSV 做成简易数据大屏（HTML/PNG）。
   触发场景：数据大屏、可视化看板、CSV 画图、指标图表、plotly/seaborn。
-disable-model-invocation: true
 ---
 
 # 简易数据大屏
